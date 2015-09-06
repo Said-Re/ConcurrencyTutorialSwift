@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		8EEE95AA1B979975009360CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEE95A91B979975009360CC /* AppDelegate.swift */; };
-		8EEE95AC1B979975009360CC /* TutorialNSOperationPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEE95AB1B979975009360CC /* TutorialNSOperationPart1.swift */; };
 		8EEE95AF1B979975009360CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EEE95AD1B979975009360CC /* Main.storyboard */; };
 		8EEE95B11B979975009360CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEE95B01B979975009360CC /* Images.xcassets */; };
 		8EEE95B41B979975009360CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EEE95B21B979975009360CC /* LaunchScreen.xib */; };
 		8EEE95C01B979975009360CC /* ConcurrencyTutorialSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEE95BF1B979975009360CC /* ConcurrencyTutorialSwiftTests.swift */; };
+		8EEFF4A61B98F2EC00BD66C3 /* DownloadImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEFF4A41B98F2EC00BD66C3 /* DownloadImageOperation.swift */; };
+		8EEFF4A71B98F2EC00BD66C3 /* TutorialPart2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEFF4A51B98F2EC00BD66C3 /* TutorialPart2ViewController.swift */; };
+		8EEFF4A91B98F2F500BD66C3 /* TutorialNSOperationPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEFF4A81B98F2F500BD66C3 /* TutorialNSOperationPart1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		8EEE95A41B979975009360CC /* ConcurrencyTutorialSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcurrencyTutorialSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EEE95A81B979975009360CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EEE95A91B979975009360CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8EEE95AB1B979975009360CC /* TutorialNSOperationPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialNSOperationPart1.swift; sourceTree = "<group>"; };
 		8EEE95AE1B979975009360CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EEE95B01B979975009360CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8EEE95B31B979975009360CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8EEE95B91B979975009360CC /* ConcurrencyTutorialSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcurrencyTutorialSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EEE95BE1B979975009360CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EEE95BF1B979975009360CC /* ConcurrencyTutorialSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyTutorialSwiftTests.swift; sourceTree = "<group>"; };
+		8EEFF4A41B98F2EC00BD66C3 /* DownloadImageOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DownloadImageOperation.swift; path = TutorialNSOperationPart2/DownloadImageOperation.swift; sourceTree = "<group>"; };
+		8EEFF4A51B98F2EC00BD66C3 /* TutorialPart2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TutorialPart2ViewController.swift; path = TutorialNSOperationPart2/TutorialPart2ViewController.swift; sourceTree = "<group>"; };
+		8EEFF4A81B98F2F500BD66C3 /* TutorialNSOperationPart1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TutorialNSOperationPart1.swift; path = TutorialNSOperationPart1/TutorialNSOperationPart1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,9 @@
 		8EEE95A61B979975009360CC /* ConcurrencyTutorialSwift */ = {
 			isa = PBXGroup;
 			children = (
+				8EEFF4A31B98F2D900BD66C3 /* TutorialNSOperationPart1 */,
+				8EEFF4A01B98F0EC00BD66C3 /* TutorialNSOperationPart2 */,
 				8EEE95A91B979975009360CC /* AppDelegate.swift */,
-				8EEE95AB1B979975009360CC /* TutorialNSOperationPart1.swift */,
 				8EEE95AD1B979975009360CC /* Main.storyboard */,
 				8EEE95B01B979975009360CC /* Images.xcassets */,
 				8EEE95B21B979975009360CC /* LaunchScreen.xib */,
@@ -110,6 +115,23 @@
 				8EEE95BE1B979975009360CC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EEFF4A01B98F0EC00BD66C3 /* TutorialNSOperationPart2 */ = {
+			isa = PBXGroup;
+			children = (
+				8EEFF4A41B98F2EC00BD66C3 /* DownloadImageOperation.swift */,
+				8EEFF4A51B98F2EC00BD66C3 /* TutorialPart2ViewController.swift */,
+			);
+			name = TutorialNSOperationPart2;
+			sourceTree = "<group>";
+		};
+		8EEFF4A31B98F2D900BD66C3 /* TutorialNSOperationPart1 */ = {
+			isa = PBXGroup;
+			children = (
+				8EEFF4A81B98F2F500BD66C3 /* TutorialNSOperationPart1.swift */,
+			);
+			name = TutorialNSOperationPart1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EEE95AC1B979975009360CC /* TutorialNSOperationPart1.swift in Sources */,
 				8EEE95AA1B979975009360CC /* AppDelegate.swift in Sources */,
+				8EEFF4A61B98F2EC00BD66C3 /* DownloadImageOperation.swift in Sources */,
+				8EEFF4A71B98F2EC00BD66C3 /* TutorialPart2ViewController.swift in Sources */,
+				8EEFF4A91B98F2F500BD66C3 /* TutorialNSOperationPart1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +435,7 @@
 				8EEE95C51B979975009360CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EEE95C61B979975009360CC /* Build configuration list for PBXNativeTarget "ConcurrencyTutorialSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +444,7 @@
 				8EEE95C81B979975009360CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

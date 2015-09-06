@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>00DDF755-7969-4C12-B13D-1F33676B880C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DE100B4C5D9B9D39C2E1D5F5CC41B2FC45E70ABF</key>
+		<string>github.com:Said-Re/ConcurrencyTutorialSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ConcurrencyTutorialSwift/ConcurrencyTutorialSwift.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DE100B4C5D9B9D39C2E1D5F5CC41B2FC45E70ABF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Said-Re/ConcurrencyTutorialSwift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DE100B4C5D9B9D39C2E1D5F5CC41B2FC45E70ABF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DE100B4C5D9B9D39C2E1D5F5CC41B2FC45E70ABF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ConcurrencyTutorialSwift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
